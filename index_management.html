@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Catering Managment Menu</title>
+</head>
+
+<body>
+<H1>Catering Managment Menu</H1>
+<hr />
+Use this section to see all of clients: <br />
+<form action="clients_bysuburb.html" method="post">
+<input type="submit" value="Clients by Suburbs">
+</form>
+<hr>
+Use this section to list the most popluar bookings:<br />
+<form action="@select_PopluarBookings.php" method="post">
+<input type="submit" value="Show Bookings">
+</form>
+<hr />
+Use this section to see all Comments from the clients:<br />
+<form action="@select_all_comments.php" method="post">
+<input type="submit" value="Show Comments">
+</form>
+    <hr />
+    Use this section to see delete all client booking records:<br />
+    <form action="@delete_booking_managment.php" method="post">
+        Type in a Client ID:<input type="text" name="clientID" /><br /> 
+        <input type="submit" value="Delete Bookings" />
+    </form>
+    <hr />
+    Use this section to see the cost for clients:<br />
+    <form action="@select_cost.php" method="post">
+        <input type="submit" value="Show Cost" />
+    </form>
+    <hr />
+</body>
+</html>

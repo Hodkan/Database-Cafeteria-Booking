@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Catering Client Menu</title>
+</head>
+
+<body>
+<H1>Catering Booking Menu</H1>
+<hr />
+Enter a new booking:<br />
+<form action="@insert_booking.php" method="post">
+Type in a the number of guests:<br>
+ <input type="number" name="numGuests"><br>
+Type in the date if the catering:<br>
+ <input type="date" name="cateringDate"><br>
+Type in the desired food:<br>
+ <input type="number" name="foodFK"><br>
+Type in your client ID:<br>
+ <input type="number" name="clientIDFK"><br>
+<input type="submit">
+</form>
+<hr />
+</body>
+</html>
